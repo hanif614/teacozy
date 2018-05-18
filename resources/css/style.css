@@ -1,0 +1,380 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  header: fixed;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  display: flex;
+  margin-left: 10px;
+  height: 50px;
+}
+
+#our-mission {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width:1200px;
+  height: 700px;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.mission-statement {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mission-statement h2 {
+  margin: 10px 0 20px 0;
+}
+
+.mission-statement h4 {
+  margin-top: 0px;
+}
+
+#featured {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.monthly-tea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.monthly-tea h4 {
+  margin: 10px 0 20px 0;
+}
+
+.monthly-tea h4 {
+  margin-top: 0px;
+}
+
+.flavors {
+  display: inline-flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.berry img {
+  height: 200px;
+  width: 300px;
+}
+
+.spiced img {
+  height: 200px;
+  width: 300px;
+}
+
+.donut img {
+  height: 200px;
+  width: 300px;
+}
+
+.myrtle img {
+  height: 200px;
+  width: 300px;
+}
+
+.bedford img {
+  height: 200px;
+  width: 300px;
+}
+
+#locations {
+  padding-top: 15px;
+  display: flex;
+  /*flex-wrap: wrap; */
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  height: 600px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.stores {
+  /*display: flex; */
+  /*flex-direction: column; */
+  align-items: center;
+  display: inline-flex;
+  /*display: inline-flex;
+  flex-flow: wrap;
+  justify-content: center;
+  /*padding-right: 40px; */
+  /*padding-right: 40px; */
+}
+
+.downtown {
+  /*padding-left: 40px; */
+  padding-top: 30px;
+  height: 280px;
+  width: 300px;
+  background-color: black;
+  align-items: center;
+}
+
+.bayside {
+  padding-top: 30px;
+  height: 280px;
+  width: 300px;
+  background-color: black;
+  align-items: center;
+}
+
+.oakdale {
+  padding-top: 30px;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  align-items: center;
+  }
+
+footer {
+  height: 200px;
+  align-items: center;
+}
+
+.copyright {
+  margin-left: 10px;
+  text-align: left;
+}
+  /*.locations {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+  /*display: flex; */
+  /*flex-direction: column; */
+  /*height: 300px;
+  width: 300px; */
+
+
+/*.locations downtown {
+  height: 300px;
+  width: 200px;
+}
+
+.locations bayside {
+  height: 300px;
+  width: 200px;
+}
+
+
+
+
+/*.locations berry {
+  display: flex;
+  height: 300px;
+  width: 300px;
+} */
+
+
+
+
+/*.locations {
+  display: flex;
+  /*height: 300px;
+  width: 300px; */
+  /*background-color: black;
+  opacity: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #monthly-tea {
+  /*padding-top: 20px;
+  display: flex;
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  align-items: center; */
+  /*display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+} */
+
+/* .monthly-teas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flavors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.berry {
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+
+.spiced {
+display: flex;
+  height: 200px;
+  width: 300px;
+}
+
+
+
+/*.monthly-teas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+/*.flavor {
+  display: flex;
+  height: 200px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: -5px;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+/*.flavor img {
+  height: 200px;
+  width: 300px;
+}
+
+
+/*.flavors {
+  display:inline-flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.flavors h4 {
+  margin: 10px 0 20px 0;
+}
+
+.flavors h4 {
+  margin-top: 0px;
+}
+
+/*.flavor {
+  display: flex;
+  height: 200px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: -5px;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+/*.flavor img {
+  height: 200px;
+  width: 300px;
+}
+
+/*.spiced img {
+  height: 200px;
+  width: 300px;
+}
+
+.donuts img {
+  height: 200px;
+  width: 300px;
+}
+
+.myrtle img {
+  height: 200px;
+  width: 300px;
+}
+
+.bedford img {
+  height: 200px;
+  width: 300px;
+}
+
+#locations {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  height: 500px;
+  width: 1000px;
+  margin: 0 auto;
+}
