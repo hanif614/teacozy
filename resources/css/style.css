@@ -134,11 +134,13 @@ header {
 
 .downtown {
   /*padding-left: 40px; */
+  /*margin-left: 40px; /*added */
   padding-top: 30px;
   height: 280px;
   width: 300px;
   background-color: black;
   align-items: center;
+  /*justify-content: space-around; */
 }
 
 .bayside {
