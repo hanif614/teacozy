@@ -7,6 +7,8 @@ body {
   text-align: center;
 }
 
+
+
 header {
   display: flex;
   height: 69px;
@@ -17,6 +19,10 @@ header {
   border-bottom: 1px solid seashell;
 }
 
+a {
+  text-decoration: underline;
+}
+
 .logo {
   display: flex;
   margin-left: 10px;
@@ -25,12 +31,13 @@ header {
 
 #our-mission {
   display: flex;
+
   justify-content: center;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-image: url(../images/img-mission-background.jpg);
   width:1200px;
   height: 700px;
   align-items: center;
-  position: relative;
+  position: relative; 
   margin: 0 auto;
 }
 
@@ -53,11 +60,11 @@ header {
 
 #featured {
   display: flex;
-  flex-direction: column;
+
   position: relative;
   width: 1000px;
   height: 700px;
-  margin: 0 auto;
+  margin: 40px auto;
   align-items: center;
 }
 
